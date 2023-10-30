@@ -1,0 +1,67 @@
+/* Mobile & Tablet Styles */
+#navbar {
+    background-color: #0084fd;
+    width: 100%;
+    height: 100px;
+    padding: 0 40px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffff;
+}
+
+.menu a, .right-section i {
+    color: #ffff;
+}
+
+#navbar > .left-section img {
+    width: 100px;
+}
+
+.left-section, .right-section {
+    font-size: 20px;
+}
+
+.right-section ul {
+    display: none;
+}
+
+/* Desktop Styles */
+@media all and (min-width:1301px) {
+    .container {
+        display: flex;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    #navbar .right-section ul {
+        display: flex;
+    }
+
+    #navbar .right-section li {
+        padding: 0 20px;
+    }
+
+    #navbar .right-section a {
+        font-size: 18px;
+    }
+
+    .link-get-started {
+        background: #ffff;
+        padding: 10px 20px;
+        border-radius: 35px;
+    }
+
+    .header-button a {
+        color: black;
+    }
+
+    #navbar .right-section i {
+        display: none;
+    }
+}
