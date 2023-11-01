@@ -1,0 +1,156 @@
+/* Mobile Styles */
+
+/* Prima Sezione */
+#features {
+    margin-top: 60px;
+}
+
+.main-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.row {
+    display: block;
+}
+
+.col {
+    background-color: #b5ddff;
+    width: 100%;
+    border-radius: 30px;
+    padding: 40px 45px 0;
+    margin: 35px 0;
+}
+
+#features .col h1 {
+    color: #0084fd;
+    font-size: 32px;
+}
+
+#features .col p {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5a6e7f;
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+#features .col .phone-img {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#features .phone-img img {
+    width: 100%;
+}
+
+.link-app-store {
+    margin-top: 50px;
+}
+
+.link-app-store a {
+    background-color: #0084fd;
+    padding: 12px 70px;
+    color: #ffff;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.link-app-store i {
+    margin-right: 15px;
+}
+
+.row .services {
+    text-align: center;
+    padding: 45px;
+}
+
+.services i {
+    font-size: 100px;
+    color: #0084fd;
+    margin-bottom: 30px;
+}
+
+/* Tablet Media Query */
+@media all and (min-width:481px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        width: calc(100% / 3 - 40px);
+        margin: 0 20px 35px;
+    }
+
+    #demo {
+        width: calc((100% / 3) * 2 - 40px);
+    }
+}
+
+/* Seconda Sezione */
+#planning {
+    background-color: #9792e4;
+    width: 100%;
+    margin-top: 100px;
+    padding: 80px 0;
+}
+
+.planning1-img {
+    margin-bottom: 80px;
+}
+
+.planning1-img img {
+    width: 100%;
+}
+
+.main-container h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+
+.main-container p {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 35px;
+}
+
+.app-development {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px 35px;
+    border-radius: 60px;
+}
+
+.planning2-img {
+    margin-bottom: 25px;
+}
+
+.app-development .planning2-img img {
+    width: 100%;
+}
+
+.app-development h1 {
+    font-size: 32px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.app-development p {
+    color: black;
+    margin-bottom: 40px;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 35px;
+}
+
+.app-development a i {
+    font-size: 20px;
+    background: #9792e4;
+    padding: 20px 23px;
+    border-radius: 40px;
+    color: black;
+}
