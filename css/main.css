@@ -1,8 +1,6 @@
-/* Mobile Styles */
-
 /* Prima Sezione */
 #features {
-    margin-top: 60px;
+    padding-top: 120px;
 }
 
 .main-container {
@@ -10,16 +8,16 @@
     margin: 0 auto;
 }
 
-.row {
-    display: block;
-}
-
 .col {
     background-color: #b5ddff;
     width: 100%;
     border-radius: 30px;
-    padding: 40px 45px 0;
     margin: 35px 0;
+}
+
+.col .content-col {
+    width: 80%;
+    margin: 0 auto;
 }
 
 #features .col h1 {
@@ -42,6 +40,7 @@
 
 #features .phone-img img {
     width: 100%;
+    margin-bottom: -5px;
 }
 
 .link-app-store {
