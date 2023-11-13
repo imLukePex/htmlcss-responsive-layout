@@ -12,3 +12,7 @@
     font-size: 14px;
     scroll-behavior: smooth;
 }
+
+section {
+    padding: 45px 0;
+}

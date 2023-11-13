@@ -10,146 +10,272 @@
 
 .col {
     background-color: #b5ddff;
-    width: 100%;
     border-radius: 30px;
-    margin: 35px 0;
+    margin-bottom: 35px;
 }
 
-.col .content-col {
+#features .text-container {
     width: 80%;
     margin: 0 auto;
 }
 
-#features .col h1 {
+#features h1 {
     color: #0084fd;
     font-size: 32px;
+    padding: 20px 0;
 }
 
-#features .col p {
+.text-demo p {
     font-size: 20px;
     font-weight: bold;
     color: #5a6e7f;
-    margin-top: 30px;
     line-height: 35px;
 }
 
-#features .col .phone-img {
-    margin-top: 50px;
-    text-align: center;
-}
-
-#features .phone-img img {
+#features .content-col.right img {
     width: 100%;
     margin-bottom: -5px;
 }
 
-.link-app-store {
-    margin-top: 50px;
+.button {
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
 }
 
-.link-app-store a {
+.button.download {
     background-color: #0084fd;
-    padding: 12px 70px;
-    color: #ffff;
-    font-size: 22px;
-    font-weight: bold;
-    border-radius: 30px;
+    width: 90%;
+    margin: 20px 0;
 }
 
-.link-app-store i {
+.button a {
+    padding: 0 10px;
+    color: #ffff;
+}
+
+.button i {
     margin-right: 15px;
 }
 
-.row .services {
+#features .text-demo.text-col {
     text-align: center;
-    padding: 45px;
+    padding: 30px 20px;
 }
 
-.services i {
-    font-size: 100px;
+#features .text-demo i {
     color: #0084fd;
-    margin-bottom: 30px;
-}
-
-/* Tablet Media Query */
-@media all and (min-width:481px) {
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .col {
-        width: calc(100% / 3 - 40px);
-        margin: 0 20px 35px;
-    }
-
-    #demo {
-        width: calc((100% / 3) * 2 - 40px);
-    }
+    display: block;
+    font-size: 80px;
 }
 
 /* Seconda Sezione */
-#planning {
+.main.planning {
     background-color: #9792e4;
+}
+
+.col-planning.left {
+    color: white;
+}
+
+.col-planning.left img, .col-planning.right img {
     width: 100%;
-    margin-top: 100px;
-    padding: 80px 0;
+    padding: 30px 0;
 }
 
-.planning1-img {
-    margin-bottom: 80px;
-}
-
-.planning1-img img {
-    width: 100%;
-}
-
-.main-container h1 {
+.col-planning h1 {
+    padding: 40px 0 60px;
     font-size: 40px;
-    font-weight: bold;
-    color: #ffffff;
-    margin-bottom: 60px;
 }
 
-.main-container p {
-    font-size: 20px;
-    color: #ffffff;
-    line-height: 35px;
-}
-
-.app-development {
-    background-color: #ffffff;
+.col-planning.right {
     text-align: center;
-    padding: 40px 35px;
-    border-radius: 60px;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 30px;
+    padding-bottom: 20px;
 }
 
-.planning2-img {
-    margin-bottom: 25px;
+.col-planning.right h1 {
+    padding: 20px 0;
 }
 
-.app-development .planning2-img img {
-    width: 100%;
+.button.arrow {
+    background-color: #9792e4;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 50px;
+    margin: 30px auto;
 }
 
-.app-development h1 {
-    font-size: 32px;
+.button.arrow a {
     color: black;
+    text-align: center;
+    padding: 8px;
+}
+
+/* Terza Sezione */
+.main.testimonials {
+    text-align: center;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.testimonials-title {
+    color: #9792e4;
+    font-size: 40px;
+    padding: 30px 0;
+}
+
+.card {
+    margin: 30px 0;
+    background-color: #9792e4;
+    border-radius: 40px;
+    color: white;
+    padding: 30px 0;
+}
+
+ .col-test {
+    width: 90%;
+    margin: 0 auto;
+}
+
+ .col-test.right {
+    margin-top: 30px;
+}
+
+ .cont-img-test {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cont-img-test img {
+    width: auto;
+    height: 100%;
+    margin-left: -50px;
+}
+
+ #almeda {
+    margin-left: -60px;
+}
+
+ .fa-quote-right {
+    padding-left: 5px;
+}
+
+ .fa-quote-left {
+    padding-right: 5px;
+}
+
+ .name {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+  /* section benefits */
+.main.benefits {
+    background-color: #9792e4;
+}
+
+.col-benefits {
+    background-color: white;
+    border-radius: 20px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
-.app-development p {
-    color: black;
-    margin-bottom: 40px;
-    font-size: 22px;
-    font-style: italic;
-    line-height: 35px;
+.benefits-title {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
-.app-development a i {
-    font-size: 20px;
-    background: #9792e4;
-    padding: 20px 23px;
-    border-radius: 40px;
-    color: black;
+.text-benefits {
+    width: 85%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.number {
+    color: #9792e4;
+    font-size: 50px;
+}
+
+.type-benefits {
+    color: #9792e4;
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.text-benefits p  {
+    color: #607689;
+}
+
+.button.more {
+    background-color: #9792e4;
+    width: 50%;
+    margin-top: 20px;
+}
+
+/* section about us */
+#ab-title {
+    font-size: 60px;
+    color: #9792e4;
+    padding-bottom: 30px;
+}
+
+.text-ab {
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.col-ab.profile {
+    position: relative;
+}
+
+#ab-profile {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+#ab-profile img {
+    width: auto;
+    height: 100%;
+}
+
+#fa-quote-left {
+    z-index: 30;
+    font-size: 60px;
+    color: #9792e4;
+    position: absolute;
+    top: -15px;
+    left: 140px;
+}
+
+#desc-profile {
+    font-size: 25px;
+    color: #9792e4;
+    line-height: 40px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.button.linkedin {
+    background-color: #9792e4;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.fa-linkedin {
+    padding-right: 5px;
 }
